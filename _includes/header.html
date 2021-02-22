@@ -1,0 +1,13 @@
+
+
+<header>
+    <div class='con'>
+        <h1 id='site-title' onclick="window.location.href='/'">STEM @ UCC</h1>
+        <nav>
+            {% for page in site.pages %} {% if page.title %}
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %} {% endfor %}
+            <a href="{{ "/blog" | prepend: site.baseurl }}">Events</a>
+        </nav>
+    </div>
+</header>
