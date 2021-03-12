@@ -1,6 +1,43 @@
-.gallery{
-    width:100%;
-    height:400px;
-    background-color:rgb(185, 185, 185);
-    border-radius:5px;
+.gallery {
+  background: #EEE;
+}
+  
+.gallery-cell {
+  width: 100%;
+  height: 400px;
+  margin-right: 10px;
+  background: rgb(238, 238, 238);
+  background-size: cover;
+  counter-increment: gallery-cell;
+}
+.gallery-cell .bg{
+  width:100%;
+  align-self: center;
+  vertical-align: middle;
+  margin-top:-200px;
+}
+
+.gallery-cell .image{
+  width:200px;
+  height:200px;
+  margin-right:50px;
+  object-fit:cover;
+  border-radius:10px;
+}
+  
+/* position dots in gallery */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: rgb(124, 124, 124);
 }

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
-$content-width: 800px;
-$main: #165A9C;
+$main:white;
+$content-width: 1000px;
+$primary: #2470bb;
+$primary-light: #c7e4ff;
 $font-style: 'Open Sans', sans-serif;
 $font-color: #262626;
 $link-color: #425469;
@@ -10,6 +12,7 @@ $heading-font: 'Muli', sans-serif;
 $heading-font-color: #425469;
 $light: #e7edf4;
 $header: #1d1425;
+$black: rgb(20, 20, 20);
 
 *,
 *::before,
@@ -20,16 +23,40 @@ $header: #1d1425;
 }
 
 html, body {
-    font-family:IBM Plex Sans;
+    font-family:Noto Sans JP;
     margin:0px;
 }
 
 .pad {
     display:flex;
     width:100%;
+    padding:0px 30px;
 }
 
 .pad > div{
     margin:auto;
     width:$content-width;
+}
+
+button {
+    font-family: Noto Sans JP;
+    font-size:12pt;
+    font-weight:700;
+    padding:5px 15px;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    background-color:$primary;
+}
+
+a {
+    color:$primary;
+    font-weight:700;
+    text-decoration: none;
+    border-bottom: 2px solid $primary;
+}
+
+a:hover{
+    background-color:$primary-light
 }

@@ -2,12 +2,21 @@
 
 <header>
     <div class='con'>
-        <h1 id='site-title' onclick="window.location.href='/'">STEM @ UCC</h1>
+        <div  id='site-title' onclick="window.location.href='/'">
+            <img id ='logo' src="/assets/statics/logo.png" alt="">
+            <div>
+                <h1>STEM</h1>
+                <p>Upper Canada College</p>
+            </div>
+        </div>
+        
+        
         <nav>
             {% for page in site.pages %} {% if page.title %}
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %} {% endfor %}
-            <a href="{{ "/blog" | prepend: site.baseurl }}">Events</a>
+            <a href="{{ '/events' | prepend: site.baseurl }}">Events</a>
+            <a><i class='fab fa-instagram' style='font-size:16pt;'></i></a>
         </nav>
     </div>
 </header>

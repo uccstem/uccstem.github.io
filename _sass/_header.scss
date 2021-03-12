@@ -1,12 +1,26 @@
 
-#site-title {
-    color: $main;
+#site-title h1{
     font-size:16pt;
     text-decoration:none;
     margin:0px;
     padding: 0px;
     cursor: pointer;
-    color:white;
+}
+#site-title p{
+    margin:0px;
+    margin-bottom:10px;
+}
+#site-title {
+    display:flex;
+    cursor:pointer;
+    padding:5px;
+    border-radius:5px;
+}
+
+#logo {
+    width:60px;
+    height:55px;
+    margin-right:20px;
 }
 
 header {
@@ -15,10 +29,12 @@ header {
     top:0px;
     left:0px;
     display:flex;
-    background-color:$main;
-    color:white;
+    background-color:white;
+    color:$black;
     display:flex;
-    border-bottom:2px solid $main;
+    border-bottom:2px solid $black;
+    padding: 0px 20px;
+    z-index:1000;
 }
 
 header .con{
@@ -36,11 +52,17 @@ nav {
 
 nav a{
     text-decoration: none;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.178);
     border-radius:5px;
     margin: auto 0px;
     margin-right:10px;
     padding:5px 20px;
     background-color:none;
+    color:$black;
+    font-weight:500;
+    cursor:pointer;
+    border:none;
+}
+
+nav a:hover, #site-title:hover{
+    background-color:rgba(0, 0, 0, 0.075);
 }

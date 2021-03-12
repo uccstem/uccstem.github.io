@@ -15,3 +15,16 @@ github_username: jekyll
 # Build settings
 markdown: kramdown
 include: ['_pages']
+
+defaults:
+- scope:
+    path: ""
+    type: "events"
+  values:
+    layout: "post"
+    
+# collections
+collections:
+  events:
+    output: true
+    permalink: /events/:name

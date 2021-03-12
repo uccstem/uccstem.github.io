@@ -12,16 +12,10 @@
     rel="canonical"
     href="http://localhost:4000/"
   />
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <link
-    href="https://fonts.googleapis.com/css?family=Muli:400,300"
-    rel="stylesheet"
-    type="text/css"
-  />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css" media="screen"> <!-- the carousel-->
+  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"></link>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">  
 </head>
 
   <body>
@@ -29,27 +23,69 @@
 
 <header>
     <div class='con'>
-        <h1 id='site-title' onclick="window.location.href='/'">STEM @ UCC</h1>
+        <div  id='site-title' onclick="window.location.href='/'">
+            <img id ='logo' src="/assets/statics/logo.png" alt="">
+            <div>
+                <h1>STEM</h1>
+                <p>Upper Canada College</p>
+            </div>
+        </div>
+        
+        
         <nav>
              
             <a href="/about/">About</a>
-                     
-            <a href="/blog">Events</a>
+                       
+            <a href="/events">Events</a>
+            <a><i class='fab fa-instagram' style='font-size:16pt;'></i></a>
         </nav>
     </div>
 </header>
-    <div class='pad'>
       <div style='margin-top:100px;'>
-        <article><div class='gallery'>
-    Event images placeholder (carousel)
-    <div style='background-color:rgb(255, 157, 157);'></div>
-</div>
+        <article><div class="main-gallery js-flickity"
+  data-flickity-options='{ "cellAlign": "left", "contain": true, "wrapAround":true}'>
+    <div class="gallery-cell"><img class='bg' src='assets/statics/1.jpg'></div>
+    
+        
+            <div class="gallery-cell" style='padding-top:100px'><div class='pad'><div>
+                <div style='display:flex'>
+                    <img src='/assets/events/bbo-logo.png' class='image'>
+                    <div>
+                        <h2>British Biology Competition</h2>
+                        <p>An annual opportunity for students to test their skills in Biology, UCC is hosting its first BBO competition this year virtually.</p>
+                        <button onclick="window.location.href='/events/bbo'">Learn More</button>
+                    </div>
+                </div>
+            </div></div></div>
+        
 
-<h2>Get Involved in STEM at UCC</h2>
+    
+        
+            <div class="gallery-cell" style='padding-top:100px'><div class='pad'><div>
+                <div style='display:flex'>
+                    <img src='/assets/events/wizprodigy.png' class='image'>
+                    <div>
+                        <h2>Wizprodigy Robotics</h2>
+                        <p>The Wizprodigy comeptition allows students to design their own robotics trucks and compete in competitions, with prizes and scholarships worth up to $2000.</p>
+                        <button onclick="window.location.href='/events/wizprodigy'">Learn More</button>
+                    </div>
+                </div>
+            </div></div></div>
+        
 
+    
+  </div>
+<br>
+<div class='pad'><div>
+    <h2>Get Involved in STEM at UCC</h2>
+    <p>[placeholder] Some of the many exciting and innovative aspects of UCC’s IB curriculum involve courses that employ Design Thinking and Design Innovation, which focus on generating solutions to real-world problems. Design courses combine research, awareness-building about societal issues and implications, design creation, as well as prototype development and execution.</p>
+</div></div>
+
+
+
+<script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
 </article>
         
       </div>
-    </div>
   </body>
 </html>
