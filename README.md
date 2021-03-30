@@ -2,7 +2,9 @@
 
 [![Test Jekyll Build](https://img.shields.io/badge/Jekyll%20Build-Success-brightgreen)](uccstem.github.io)
 
-Hello! This is the UCC STEM website, which is built with Jekyll and deployed using Github Pages. This documentation provides info for the parsed pages and instructions on how to access website files and update pages (for devs).
+Hello! This is the UCC STEM website, which is built with Jekyll and deployed using Github Pages. This documentation provides info for the parsed pages, instructions on how to access website files, and how to update pages (for devs).
+
+If you are not a developer and want to add a page, please submit your page information through this [google form](https://forms.gle/7kernHQu4GEGt1SS8). 
 
 ## Adding an Event Page
 
