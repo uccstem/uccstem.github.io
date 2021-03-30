@@ -32,5 +32,16 @@ text **to be bold**, *italicized*, or make lists:
 * Unordered one
 * Unordered two
 
-
 ```
+
+### Event Page Fields
+
+| Field Key | Value | Required? |
+|-|-|-|
+| `name` | What the event is called! | ✅ |
+| `date` | The date of the event, in the format`YYYY-DD-MM` | ✅ |
+| `image` | The filename of the banner image, located in our [/assets/events/ folder](../assets/events)! For example `bio_comp.img` | ✅ |
+| `intro` | A brief one-sentence description of the event. | ✅ |
+| `tags` | The category and related fields of this event | ❌ |
+| `status` | Current status of event. Allowed fields are `ongoing`, `upcoming`, and `completed` | ❌ |
+
