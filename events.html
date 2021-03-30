@@ -5,19 +5,42 @@ permalink: /events/
 
 <br>
 <h2>Events</h2>
-<p>In this page you will find past, recent, and upcoming STEM events happening at UCC, organized by the variety of clubs, students, and faculty at the college!</p>
+<p>In this page you will find past, recent, and upcoming STEM events happening at UCC, organized by the variety of clubs, students, and faculty at the college! Fill out this <a href='https://forms.gle/G4uwwngQoitafXSNA'>google form</a> to upload a STEM event with a page for resources and info.</p>
 <br>
 
-<div class='event-con'>
-    {% for event in site.events %}
-    <div class='event-btn' onclick="window.location.href='{{event.url}}'">
-        {% if event.image%}
-            <img src='/assets/events/{{event.image}}'>
-        {% endif %}
-        <div>
-            <h1> {{ event.name }}</h1>
-            <p>{{event.date | date: "%b %d, %Y"}} - {{event.intro}}</p>
-        </div>
+<div class='flex'>
+    <div class='event-con'>
+        {% assign events = site.events | reverse %}
+        {% for event in events %}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 1 %}
+                <div class='event-btn' onclick="window.location.href='{{event.url}}'">
+                    {% if event.image%}
+                        <img src='/assets/events/{{event.image}}'>
+                    {% endif %}
+                    <div>
+                        <h1><span style='margin-right:15px;'> {{ event.name }}</span> <time class='status-{{event.status}}'>{{event.status | capitalize}}</time></h1>
+                        <p>{{event.date | date: "%b %d, %Y"}} - {{event.intro}}</p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
     </div>
-    {% endfor %}
+    <div class='event-con'>
+        {% assign events = site.events | reverse %}
+        {% for event in events %}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 0 %}
+                <div class='event-btn' onclick="window.location.href='{{event.url}}'">
+                    {% if event.image%}
+                        <img src='/assets/events/{{event.image}}'>
+                    {% endif %}
+                    <div>
+                        <h1><span style='margin-right:15px;'> {{ event.name }}</span> <time class='status-{{event.status}}'>{{event.status | capitalize}}</time></h1>
+                        <p>{{event.date | date: "%b %d, %Y"}} - {{event.intro}}</p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

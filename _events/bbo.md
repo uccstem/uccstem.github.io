@@ -4,6 +4,7 @@ date: 2021-02-21
 tags: Biology
 image: bbo-logo.png
 intro: An annual opportunity for students to test their skills in Biology, UCC is hosting its first BBO competition this year virtually.
+status: completed
 ---
 
 An annual opportunity for students to test their skills in Biology, UCC is hosting its first BBO competition this year virtually. The contest tests students in a variety of fields:

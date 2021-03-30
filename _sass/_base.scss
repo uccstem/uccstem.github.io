@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
 $main:white;
-$content-width: 1000px;
+$content-width: 900px;
 $primary: #2470bb;
 $primary-light: #c7e4ff;
 $font-style: 'Open Sans', sans-serif;
@@ -59,4 +59,9 @@ a {
 
 a:hover{
     background-color:$primary-light
+}
+
+.flex {
+    display:flex;
+    justify-content: space-between;
 }

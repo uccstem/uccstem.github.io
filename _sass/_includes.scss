@@ -66,3 +66,27 @@ nav a{
 nav a:hover, #site-title:hover{
     background-color:rgba(0, 0, 0, 0.075);
 }
+
+
+
+.footer {
+    background-color:rgb(231, 231, 231);
+    border-top:solid rgb(202, 202, 202) 2px;
+    color:rgb(26, 26, 26);
+    margin-top:100px;
+    padding:40px;
+    padding-bottom:60px;
+}
+
+.footer p, footer a{
+    margin:5px 0px;
+}
+
+.footer .social {
+    text-decoration: none;
+    border-bottom:none;
+    font-size:20pt;
+    margin-right:20px;
+}
+
+.footer .social:hover{background-color:rgba(255, 255, 255, 0);}

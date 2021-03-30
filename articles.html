@@ -1,0 +1,48 @@
+---
+layout: default
+permalink: /articles/
+---
+
+<br>
+<h2>Articles</h2>
+<p>This page holds student-written publications, articles, and commentary on STEM related fields and events at Upper Canada College. If you are interested in contributing, please fill out the google form linked at the bottom of the page.</p>
+<br>
+
+<div class='flex'>
+    <div class='event-con'>
+        {% assign articles = site.articles | reverse %}
+        {% for article in articles %}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 1 %}
+                <div class='event-btn' onclick="window.location.href='{{article.url}}'">
+                    {% if article.banner %}
+                        <img src='/assets/banners/{{article.banner}}'>
+                    {% endif %}
+                    <div>
+                        <h1> {{ article.title }}</h1>
+                        <p>By <a>{{article.author}}</a> | {{article.date | date: "%b %d, %Y"}}</p>
+                        <p>{{ article.content | strip_html | truncatewords:30}}</p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class='event-con'>
+        {% assign articles = site.articles | reverse %}
+        {% for article in articles %}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 0 %}
+                <div class='event-btn' onclick="window.location.href='{{article.url}}'">
+                    {% if article.banner %}
+                        <img src='/assets/banners/{{article.banner}}'>
+                    {% endif %}
+                    <div>
+                        <h1> {{ article.title }}</h1>
+                        <p>By <a>{{article.author}}</a> | {{article.date | date: "%b %d, %Y"}}</p>
+                        <p>{{ article.content | strip_html | truncatewords:30}}</p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

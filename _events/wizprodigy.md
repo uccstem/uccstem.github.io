@@ -5,6 +5,7 @@ tags: Robotics
 image: wizprodigy.png
 banner: 
 intro: The Wizprodigy comeptition allows students to design their own robotics trucks and compete in competitions, with prizes and scholarships worth up to $2000.
+status: ongoing
 ---
 
 [Check out their website for more information!](https://www.wizprodigy.com/)

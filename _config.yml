@@ -22,9 +22,17 @@ defaults:
     type: "events"
   values:
     layout: "post"
+- scope:
+    path: ""
+    type: "articles"
+  values:
+    layout: "article"
     
 # collections
 collections:
   events:
     output: true
     permalink: /events/:name
+  articles:
+    output: true
+    permalink: /articles/:name
