@@ -21,9 +21,9 @@ intro: "One sentence intro of the event."
 status: "ongoing"
 ---
 
-The actual content of the webpage and event goes here.
+The actual content of the event goes here.
 
-This is the lorem ipsum of the event. It supports
+This is the webpage for the event. It supports
 complete Markdown formatting, so you can insert links in
 paragraphs [like this one](http://example.com) or format
 text **to be bold**, *italicized*, or make lists:
