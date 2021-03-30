@@ -8,7 +8,7 @@ Hello! This is the UCC STEM website, which is built with Jekyll and deployed usi
 
 Most pages on this website are parsed using Jekyll and exist as a *Markdown* file (.md extension). If you are unfamiliar with markdown, it is essentially a text file with additional symbols that are used to denote styles (bold, italics, etc). You can learn more about markdown stylings [using this reference](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-The event pages, as markdown files, are stored in the folder `_events` located in the root directory.
+The event pages, as markdown files, are stored in the [`_events` folder](https://github.com/uccstem/uccstem.github.io/tree/master/_events) located in the root directory.
 
 For our webpage, each markdown file (webpage) begins with metadata which provides info about the event. The file structure of markdown (example):
 ```md
