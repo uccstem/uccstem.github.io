@@ -1,5 +1,5 @@
 ---
-title: HOSA - A venture into the med field
+title: HOSA - An Adventure in Healthcare
 date: 29-04-2021
 author: Daniel Lu
 category:
