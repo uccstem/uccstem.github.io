@@ -1,0 +1,55 @@
+---
+layout: default
+permalink: /clubs/
+---
+
+<br>
+<h2>UCC STEM Clubs</h2>
+<p>Here is a list of STEM related clubs at UCC. Click each club to learn more and sign up!</p>
+<br>
+
+<div class='clubcon'>
+    {% assign clubs = site.clubs %}
+{% for club in clubs %}
+<div class='clubbtn' onclick='window.open("{{club.url}}")'>
+    <img src='{{club.banner}}'>
+    <h2>{{club.name}}</h2>
+</div>
+{% endfor %}
+
+</div>
+
+
+<style>
+    .clubcon{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .clubbtn{
+        background-color:rgb(255, 255, 255);
+        width:30%;
+        min-width:250px;
+        border-radius:10px;
+        overflow:hidden;
+        box-shadow: 0px 0px 20px 1px rgb(207, 207, 207);
+        cursor:pointer;
+        transition: box-shadow 0.2s ease-in-out;
+        align-items: center;
+        margin-right:20px;
+        margin-bottom:40px;
+    }
+    .clubbtn:hover{
+        box-shadow: 0px 0px 20px 1px rgb(151, 151, 151);
+    }
+    .clubbtn img{
+        width:110%;
+        height:100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .clubbtn h2{
+        font-size:13pt;
+        text-align:center;
+        width:100%;
+    }
+</style>

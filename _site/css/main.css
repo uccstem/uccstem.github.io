@@ -34,7 +34,8 @@ a {
   color: #2470bb;
   font-weight: 700;
   text-decoration: none;
-  border-bottom: 2px solid #2470bb; }
+  border-bottom: 2px solid #2470bb;
+  cursor: pointer; }
 
 a:hover {
   background-color: #c7e4ff; }
