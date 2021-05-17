@@ -1,6 +1,6 @@
 ---
 name: HOSA
-banner: https://wallpapercave.com/wp/wp7538181.jpg
+banner: /assets/clubbanner/hosa.jpg
 ---
 
 **Club Head:** Daniel Lu, Mikey Thien

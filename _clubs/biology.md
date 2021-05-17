@@ -1,6 +1,6 @@
 ---
 name: Biology Club
-banner: https://rsb.org/wp-content/uploads/2015/06/AGA-support-F.jpg
+banner: /assets/clubbanner/biology.jpg
 ---
 
 **Club Head:** Jayson Tian, Alexander Wu

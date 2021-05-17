@@ -1,6 +1,6 @@
 ---
 name: Science Club
-banner: https://media.istockphoto.com/photos/a-big-explosion-of-hydrogen-in-a-chemistry-room-picture-id1170868933?k=6&m=1170868933&s=612x612&w=0&h=u2-UFEiCk1wcSYA-LtHvfjgtbSacACHHCJcsed9bqt4=
+banner: /assets/clubbanner/science.jpg
 ---
 
 **Club Head:** Alex Bastin, Eugene Ye

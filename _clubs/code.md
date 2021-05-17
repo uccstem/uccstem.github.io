@@ -1,6 +1,6 @@
 ---
 name: Coding & Algorithms Academy
-banner: https://ucccoders.github.io/Media/clubphoto.JPG
+banner: /assets/clubbanner/caa.jpg
 ---
 
 **Club Head:** Kevin Liu

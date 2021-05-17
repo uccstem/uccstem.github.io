@@ -1,6 +1,6 @@
 ---
 name: Robotics Club
-banner: https://live.staticflickr.com/65535/49546371696_977d820b9d_b.jpg
+banner: /assets/clubbanner/robotics.jpg
 ---
 
 **Club Head:** Ethan Li

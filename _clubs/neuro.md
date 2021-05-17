@@ -1,6 +1,6 @@
 ---
 name: Neuroscience Society
-banner: https://www.york.ac.uk/media/study/courses/postgraduate/psychology/newpgcoursepages/msccognitiveneuroscience/cognitive%20neuroscience%20banner.jpg
+banner: /assets/clubbanner/neuro.jpg
 ---
 
 
