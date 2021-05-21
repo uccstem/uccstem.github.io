@@ -67,3 +67,9 @@
     color:white;
     background-color:#b41e13c4;
 }
+
+@media screen and (max-width: 600px) {
+    .event-con{
+        width:100%;
+    }
+}

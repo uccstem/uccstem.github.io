@@ -23,6 +23,10 @@
     margin-right:20px;
 }
 
+#mobiletitle {
+    display:none;
+}
+
 header {
     position:fixed;
     width:100%;
@@ -90,3 +94,29 @@ nav a:hover, #site-title:hover{
 }
 
 .footer .social:hover{background-color:rgba(255, 255, 255, 0);}
+
+@media screen and (max-width: 600px) {
+    .flex {
+        flex-direction: column;
+    }
+    header .con{
+        display:flex;
+        flex-direction: column;
+    }
+    nav {
+        margin:auto;
+    }
+    #site-title{
+        display:none;
+    }
+    #sitelinks{
+        display:none;
+    }
+    #mobiletitle{
+        display:block;
+        text-align:center;
+    }
+    .pagecon{
+        padding-top:50px;
+    }
+  }

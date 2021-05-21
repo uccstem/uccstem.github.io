@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>UCC STEM</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/main.css">
   <link
     rel="canonical"
@@ -23,6 +23,9 @@
 
 <header>
     <div class='con'>
+        <div id='mobiletitle'>
+            <h3 onclick="window.location.href='/'">STEM @ UCC</h3>
+        </div>
         <div  id='site-title' onclick="window.location.href='/'">
             <img id ='logo' src="/assets/statics/logo.png" alt="">
             <div>
@@ -30,7 +33,6 @@
                 <p>Upper Canada College</p>
             </div>
         </div>
-        
         
         <nav>
             <a href="/events">Events</a>
@@ -41,7 +43,7 @@
     </div>
 </header>
     <div class='pad'>
-      <div style='margin-top:100px;'>
+      <div class='pagecon' style='margin-top:100px;'>
         <article><br>
 <h2>UCC STEM Clubs</h2>
 <p>Here is a list of STEM related clubs at UCC. Click each club to learn more and sign up!</p>
@@ -121,6 +123,13 @@
         text-align:center;
         width:100%;
     }
+    @media screen and (max-width: 600px) {
+    .clubbtn{
+        width:100%;
+        margin-right:0px;
+    }
+    
+}
 </style></article>
       </div>
     </div>
@@ -134,7 +143,7 @@
             <br>
             <p>Made by Jayson Tian <br>and Ryan Chan</p>
         </div>
-        <div>
+        <div id='sitelinks'>
             <h3>Site Links</h3>
             <p><a href='/'>Home</a></p>
             <p><a href='/events'>Events</a></p>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>UCC STEM</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/main.css">
   <link
     rel="canonical"
@@ -23,6 +23,9 @@
 
 <header>
     <div class='con'>
+        <div id='mobiletitle'>
+            <h3 onclick="window.location.href='/'">STEM @ UCC</h3>
+        </div>
         <div  id='site-title' onclick="window.location.href='/'">
             <img id ='logo' src="/assets/statics/logo.png" alt="">
             <div>
@@ -30,7 +33,6 @@
                 <p>Upper Canada College</p>
             </div>
         </div>
-        
         
         <nav>
             <a href="/events">Events</a>
@@ -51,7 +53,7 @@
                     <img src='/assets/events/bbo-logo.png' class='image'>
                     <div>
                         <h2>British Biology Competition</h2>
-                        <p>An annual opportunity for students to test their skills in Biology, UCC is hosting its first BBO competition this year virtually.</p>
+                        <p id='intro'>An annual opportunity for students to test their skills in Biology, UCC is hosting its first BBO competition this year virtually.</p>
                         <button onclick="window.location.href='/events/bbo'">Learn More</button>
                     </div>
                 </div>
@@ -65,7 +67,7 @@
                     <img src='/assets/events/wizprodigy.png' class='image'>
                     <div>
                         <h2>Wizprodigy Robotics</h2>
-                        <p>The Wizprodigy comeptition allows students to design their own robotics trucks and compete in competitions, with prizes and scholarships worth up to $2000.</p>
+                        <p id='intro'>The Wizprodigy comeptition allows students to design their own robotics trucks and compete in competitions, with prizes and scholarships worth up to $2000.</p>
                         <button onclick="window.location.href='/events/wizprodigy'">Learn More</button>
                     </div>
                 </div>
@@ -77,8 +79,7 @@
 <br>
 <div class='pad'><div>
     <h2>Get Involved in STEM at UCC</h2>
-    <p>STEM at UCC is a website built by the STEM committee which provides a central hub of information for anything STEM related at UCC - ...
-        [placeholder] Some of the many exciting and innovative aspects of UCC’s IB curriculum involve courses that employ Design Thinking and Design Innovation, which focus on generating solutions to real-world problems. Design courses combine research, awareness-building about societal issues and implications, design creation, as well as prototype development and execution.</p>
+    <p>Upper Canada College offers many exciting and innovative STEM activities. Built by the STEM committee, this website provides a central hub of information, thoughts, and resources for everything related to STEM at the college. Check out the STEM activities students are engaged in!</p>
 </div></div>
 
 
@@ -94,7 +95,7 @@
             <br>
             <p>Made by Jayson Tian <br>and Ryan Chan</p>
         </div>
-        <div>
+        <div id='sitelinks'>
             <h3>Site Links</h3>
             <p><a href='/'>Home</a></p>
             <p><a href='/events'>Events</a></p>
