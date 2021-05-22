@@ -5,10 +5,6 @@ author: Daniel Lu
 category:
 banner: hosa.jpg
 ---
-<div class='flex'>
-    <img src='/assets/banners/hosa.jpg' height=200>
-    <img src='/assets/banners/hosa-logo.png' width=200>
-</div>
 
 It’s easy to think of STEM when discussing the disciplines that improve our everyday lives. Over the past couple of decades, scientific and technological advancements have revolutionized almost every corner of our lives. 
 
@@ -23,3 +19,7 @@ My lack of familiarity with the content and competitive aspect was disheartening
 To those considering joining a new club or STEM activity but are worried about their comprehension of the subject, I strongly encourage them to take a leap of faith. Clubs don’t exist solely to educate or provide opportunities for competition. They offer an individual opportunity for everyone to step outside their comfort zone and connect with peers outside of the classroom. UCC prides itself on facilities and faculty expertise and we’re exceptionally privileged to have access to them. As for myself, I will never forget the enjoyable, but difficult times I’ve spent learning how to tape athletic injuries in the Sports Injury Clinic (shoutout to Ms. Pridmore!). 
 
 As a closing note, I’ll end with a cliché. Follow your dreams and even if they don’t turn out the way you expected them to, know that the outlandish knowledge you gained; the bonds you formed; and the experiences you made were worth every minute. At the very least, you’ll be able to use your new HOSA pizzazz and call it a “synchronous diaphragmatic flutter”.
+
+<div class='flex' style='width:100%'>
+    <img src='/assets/banners/hosa-logo.png' width="auto">
+</div>

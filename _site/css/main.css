@@ -63,8 +63,9 @@ a:hover {
 
 #logo {
   width: 60px;
-  height: 55px;
-  margin-right: 20px; }
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 5px; }
 
 #mobiletitle {
   display: none; }
@@ -139,6 +140,10 @@ nav a:hover, #site-title:hover {
   nav {
     margin: auto; }
 
+  nav a {
+    padding: 5px 15px;
+    margin-right: 2px; }
+
   #site-title {
     display: none; }
 
@@ -150,7 +155,10 @@ nav a:hover, #site-title:hover {
     text-align: center; }
 
   .pagecon {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  .footer {
+    font-size: 11pt; } }
 .gallery {
   background: #EEE; }
 
@@ -201,7 +209,14 @@ nav a:hover, #site-title:hover {
     object-fit: cover; }
 
   #intro {
-    display: none; } }
+    display: none; }
+
+  .gallery-cell .image {
+    width: 150px;
+    height: 150px; }
+
+  .gallery-cell {
+    font-size: 10pt; } }
 .event-con {
   display: flex;
   flex-direction: column;

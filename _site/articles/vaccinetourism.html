@@ -44,15 +44,17 @@
 </header>
     <div class='pad'>
       <div class='pagecon' style='margin-top:100px;'>
-        <article><br>
-<h1>Vaccine Tourism</h1>
-<p>By <a>Niklas Kindbom</a> on Apr 18, 2021</p>
-
+        <article><div id='banner' style='max-width:100%;'>
+    <img src='/assets/banners/vaccinetourism.jpg'>
+</div>
 <br>
-<p><img src="/assets/banners/vaccinetourism.jpg" width="600" /></p>
-
-<p><br />
-As the COVID-19 vaccine rollout progresses throughout the world at different rates vaccine tourism is beginning to emerge into a new global phenomenon. Vaccine tourism, a  process of travelling to another country to gain earlier access to medicine, brings up many questions regarding its ethical issues. Vaccine tourism can range from individuals travelling on their own to the newly surfacing industry of travel defined as “shot trips” by Forbes’ Alex Ledsom. The determining factor for which allows vaccine tourism to be so effective is the vague vaccine guidelines surrounding the rollout process and thus what follows is those who take advantage of such guidelines (e.g., not being asked for residency documents before the administration). Nonetheless, the benefit of getting vaccinated that comes with this type of tourism is heavily outweighed by its prevalent ethical issues.
+<br>
+<div class='headercon'>
+    <h1>Vaccine Tourism</h1>
+    <p>By <a>Niklas Kindbom</a> on Apr 18, 2021</p>    
+</div>
+<br><br><br><br>
+<p>As the COVID-19 vaccine rollout progresses throughout the world at different rates vaccine tourism is beginning to emerge into a new global phenomenon. Vaccine tourism, a  process of travelling to another country to gain earlier access to medicine, brings up many questions regarding its ethical issues. Vaccine tourism can range from individuals travelling on their own to the newly surfacing industry of travel defined as “shot trips” by Forbes’ Alex Ledsom. The determining factor for which allows vaccine tourism to be so effective is the vague vaccine guidelines surrounding the rollout process and thus what follows is those who take advantage of such guidelines (e.g., not being asked for residency documents before the administration). Nonetheless, the benefit of getting vaccinated that comes with this type of tourism is heavily outweighed by its prevalent ethical issues.
 Vaccine tourism from an epidemiological standpoint poses several health risks, such as spreading the virus at the desired destination as well as the originating country of travel. Thus, only working backwards from the prioritized goal of keeping our communities safe and moreover, for those communities that are vulnerable.</p>
 
 <p>Not only does vaccine tourism bring up questions regarding the health risks but just as importantly shines a light on socioeconomic privilege. This notion allows for those to buy a spot in the line throw unethical means . This is only furthering the divide between those with means and the ability, resources, and connections to travel to another jurisdiction for vaccine inoculations. More than ever is vaccine tourism putting a lens on the ugly truth of healthcare is only guaranteed to those who pay for it and have the means to pay for it. Even more, how the privileged in this 2021 COVID-19 world are able to cut such lines, overlook the needs of endangered communities, take advantage of the resources of a place that they don’t contribute tax to, and endearing those who live there.</p>
@@ -61,6 +63,24 @@ Vaccine tourism from an epidemiological standpoint poses several health risks, s
 
 
 <style>
+#banner{
+    position: absolute;
+    left:0px;
+    width:100%;
+    height:200px;
+    z-index:-1000;
+    overflow:hidden;
+}
+#banner img{
+    width:120%;
+    height:300px;
+    margin-left:-5%;
+    margin-top:-5%;
+    object-fit:cover;
+    filter: blur(20);
+    -webkit-filter: blur(20px);
+    opacity:0.45;
+}
  .pad div{
      max-width:700px;
  }
@@ -82,7 +102,7 @@ Vaccine tourism from an epidemiological standpoint poses several health risks, s
             <div><a class='social' onclick='window.open("https://www.instagram.com/uccstem/")'><i class='fab fa-instagram'></i></a>
             <a class='social' onclick="window.open('https://github.com/uccstem/uccstem.github.io')"><i class='fab fa-github'></i></a></div>
             <br>
-            <p>Made by Jayson Tian <br>and Ryan Chan</p>
+            <p>Website by Jayson Tian <br>Maintained by Ryan Chan</p>
         </div>
         <div id='sitelinks'>
             <h3>Site Links</h3>

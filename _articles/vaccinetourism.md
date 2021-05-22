@@ -6,9 +6,6 @@ category:
 banner: vaccinetourism.jpg
 ---
 
-<img src='/assets/banners/vaccinetourism.jpg' width=600>
-
-<br>
 As the COVID-19 vaccine rollout progresses throughout the world at different rates vaccine tourism is beginning to emerge into a new global phenomenon. Vaccine tourism, a  process of travelling to another country to gain earlier access to medicine, brings up many questions regarding its ethical issues. Vaccine tourism can range from individuals travelling on their own to the newly surfacing industry of travel defined as “shot trips” by Forbes’ Alex Ledsom. The determining factor for which allows vaccine tourism to be so effective is the vague vaccine guidelines surrounding the rollout process and thus what follows is those who take advantage of such guidelines (e.g., not being asked for residency documents before the administration). Nonetheless, the benefit of getting vaccinated that comes with this type of tourism is heavily outweighed by its prevalent ethical issues.
 Vaccine tourism from an epidemiological standpoint poses several health risks, such as spreading the virus at the desired destination as well as the originating country of travel. Thus, only working backwards from the prioritized goal of keeping our communities safe and moreover, for those communities that are vulnerable.
 

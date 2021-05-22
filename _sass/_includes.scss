@@ -19,8 +19,9 @@
 
 #logo {
     width:60px;
-    height:55px;
+    height:60px;
     margin-right:20px;
+    border-radius:5px;
 }
 
 #mobiletitle {
@@ -106,6 +107,10 @@ nav a:hover, #site-title:hover{
     nav {
         margin:auto;
     }
+    nav a {
+        padding:5px 15px;
+        margin-right:2px;
+    }
     #site-title{
         display:none;
     }
@@ -118,5 +123,8 @@ nav a:hover, #site-title:hover{
     }
     .pagecon{
         padding-top:50px;
+    }
+    .footer{
+        font-size:11pt;
     }
   }

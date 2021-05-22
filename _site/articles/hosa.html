@@ -44,16 +44,16 @@
 </header>
     <div class='pad'>
       <div class='pagecon' style='margin-top:100px;'>
-        <article><br>
-<h1>HOSA - An Adventure in Healthcare</h1>
-<p>By <a>Daniel Lu</a> on Apr 29, 2021</p>
-
-<br>
-<div class="flex">
-    <img src="/assets/banners/hosa.jpg" height="200" />
-    <img src="/assets/banners/hosa-logo.png" width="200" />
+        <article><div id='banner' style='max-width:100%;'>
+    <img src='/assets/banners/hosa.jpg'>
 </div>
-
+<br>
+<br>
+<div class='headercon'>
+    <h1>HOSA - An Adventure in Healthcare</h1>
+    <p>By <a>Daniel Lu</a> on Apr 29, 2021</p>    
+</div>
+<br><br><br><br>
 <p>It’s easy to think of STEM when discussing the disciplines that improve our everyday lives. Over the past couple of decades, scientific and technological advancements have revolutionized almost every corner of our lives.</p>
 
 <p>In the UCC community, STEM can be found in our classrooms, science labs, and clubs. From robotics to biology, the college offers an absurd number of opportunities to engage in exploration and innovation with the help of faculty. HOSA is one of those communities that I’ve had the pleasure of participating in.</p>
@@ -68,10 +68,32 @@
 
 <p>As a closing note, I’ll end with a cliché. Follow your dreams and even if they don’t turn out the way you expected them to, know that the outlandish knowledge you gained; the bonds you formed; and the experiences you made were worth every minute. At the very least, you’ll be able to use your new HOSA pizzazz and call it a “synchronous diaphragmatic flutter”.</p>
 
+<div class="flex" style="width:100%">
+    <img src="/assets/banners/hosa-logo.png" width="auto" />
+</div>
+
 
 
 
 <style>
+#banner{
+    position: absolute;
+    left:0px;
+    width:100%;
+    height:200px;
+    z-index:-1000;
+    overflow:hidden;
+}
+#banner img{
+    width:120%;
+    height:300px;
+    margin-left:-5%;
+    margin-top:-5%;
+    object-fit:cover;
+    filter: blur(20);
+    -webkit-filter: blur(20px);
+    opacity:0.45;
+}
  .pad div{
      max-width:700px;
  }
@@ -93,7 +115,7 @@
             <div><a class='social' onclick='window.open("https://www.instagram.com/uccstem/")'><i class='fab fa-instagram'></i></a>
             <a class='social' onclick="window.open('https://github.com/uccstem/uccstem.github.io')"><i class='fab fa-github'></i></a></div>
             <br>
-            <p>Made by Jayson Tian <br>and Ryan Chan</p>
+            <p>Website by Jayson Tian <br>Maintained by Ryan Chan</p>
         </div>
         <div id='sitelinks'>
             <h3>Site Links</h3>

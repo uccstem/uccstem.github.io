@@ -4,14 +4,14 @@ permalink: /clubs/
 ---
 
 <br>
-<h2>UCC STEM Clubs</h2>
+<h2>STEM Clubs</h2>
 <p>Here is a list of STEM related clubs at UCC. Click each club to learn more and sign up!</p>
 <br>
 
 <div class='clubcon'>
     {% assign clubs = site.clubs %}
 {% for club in clubs %}
-<div class='clubbtn' onclick='window.open("{{club.url}}")'>
+<div class='clubbtn' onclick='window.location="{{club.url}}"'>
     <img src='{{club.banner}}'>
     <h2>{{club.name}}</h2>
 </div>
